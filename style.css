@@ -12,14 +12,91 @@
     --ffPrimary: "Nunito Sans", serif;
     --ffSecondary: "Merienda", serif;
 }
-.logo img{
-    width: 20%;
+
+.logo img {
+    display: block;
+    width: 50px;
+    max-width: 100%;
+    height: auto;
 }
+
 body {
     font-family: var(--ffPrimary);
+}
+
+.heroContainer p {
+    font-family: "Nunito Sans", serif;
+    font-size: 1.5rem;
 }
 
 h1,
 h2 {
     font-family: var(--ffSecondary);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero {
+    min-height: 85vh;
+    background: url("./assets/img/hero.jpeg") center right / cover no-repeat;
+    background-color: #fffbf0;
+}
+
+.hero .row {
+    min-height: 75vh;
+}
+
+.hero h1 {
+    font-size: clamp(2.25rem, 5vw, 3rem);
+}
+
+.section-heading-image {
+    width: clamp(120px, 25vw, 220px);
+}
+
+.facility-icon {
+    width: 40%;
+    max-width: 120px;
+}
+
+.menu-image {
+    width: 300px;
+    max-width: 80%;
+}
+
+.card {
+    height: 100%;
+}
+
+.contact .row.g-4>div:first-child img {
+    display: block;
+    width: 100%;
+}
+
+@media (max-width: 767.98px) {
+    .hero {
+        min-height: 65vh;
+        background-image: url("./assets/img/hero.jpeg");
+        background-position: center, 65% center;
+        background-size: cover;
+    }
+
+    .hero .row {
+        min-height: 60vh;
+    }
+
+    .hero .col-12 {
+        padding-block: 2rem;
+    }
+
+    .about img {
+        width: 100%;
+    }
+
+    .about .row>div+div {
+        padding-top: 1.5rem;
+    }
 }

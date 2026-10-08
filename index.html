@@ -16,14 +16,12 @@
 </head>
 
 <body>
-    <header>
+    <header class="overflow-hidden">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
-                <div class="row">
-                    <figure class="logo">
-                        <img src="./assets/img/logo.png" alt="logo">
-                    </figure>
-                </div>
+                <figure class="logo mb-0">
+                    <img src="./assets/img/logo.png" alt="logo">
+                </figure>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -41,20 +39,16 @@
                 </div>
             </div>
         </nav>
-        <section class=" background py-0"
-            style="background: url(./assets/img/hero.jpeg) center right / cover no-repeat; min-height: 85vh; background-color: #FFFBF0;">
+        <section class="hero background py-0 overflow-hidden">
             <div class="container h-100">
-                <div class="row h-100 align-items-center" style="min-height: 75vh;">
+                <div class="row h-100 align-items-center">
                     <div class="col-12 col-md-6">
                         <h1 class="fw-bold display-5">Coffee Heaven</h1>
-                        <p class="text-muted small mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui
-                            asperioreson,
-                            voluptatum, commodi labore ea
-                            eius tenetur. Asperiores, culpa?ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="text-muted small mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Adipisci ipsa id vero perferendis, reiciendis dolores! Lorem ipsum, dolor sit amet</p>
                         <div class="d-flex">
                             <button class="btn btn-primary"
                                 style="background: #be9c76; font-size: 13px; border: 0;">About Us</button>
-
                         </div>
                     </div>
                 </div>
@@ -85,19 +79,20 @@
         </section>
         <div class="Facility"><!-- 2.component -->
             <div class="container"><!-- 3.componentContainer -->
-                <div class="row align-items-center justify-content-center" style="min-width: 500px;"><!-- 4.row 1 -->
-                     <div
+                <div class="row align-items-center justify-content-center"><!-- 4.row 1 -->
+                    <div
                         class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex flex-column justify-content-center align-items-center py-3">
                         <!-- 5.column -->
-                        <img src="./assets/img/heading-img.jpg" class="w-25 h-auto" alt="our facility">
+                        <img src="./assets/img/heading-img.jpg" class="section-heading-image" alt="our facility">
                         <h2 class="fs-1 fw-bold">our Facility</h2>
                     </div>
                 </div>
-                <div class="row align-items-center justify-content-center" style="min-width: 500px;"><!-- 4.row 1 -->
+                <div class="row align-items-center justify-content-center"><!-- 4.row 1 -->
                     <div class="col-12 col-sm-12 col-md-6 col-lg-3"><!-- 5.column 1 -->
                         <div
                             class="card w-100 rounded-0 border-0 d-flex flex-column justify-content-center align-items-center">
-                            <img src="./assets/img/icon-1.png" class="w-40 h-auto pt-3" alt="Varieties of Coffee">
+                            <img src="./assets/img/icon-1.png" class="facility-icon h-auto pt-3"
+                                alt="Varieties of Coffee">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">
                                 <h5 class="card-title">Varieties of Coffee</h5>
                                 <p class="card-text text-center">Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing
@@ -108,7 +103,7 @@
                     <div class="col-12 col-sm-12 col-md-6 col-lg-3"><!-- 5.column 2-->
                         <div
                             class="card w-100 rounded-0 border-0 d-flex flex-column justify-content-center align-items-center">
-                            <img src="./assets/img/icon-2.png" class="w-40 h-auto pt-3" alt="Coffee Beans">
+                            <img src="./assets/img/icon-2.png" class="facility-icon h-auto pt-3" alt="Coffee Beans">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">
                                 <h5 class="card-title">Coffee Beans</h5>
                                 <p class="card-text text-center">Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing
@@ -119,7 +114,8 @@
                     <div class="col-12 col-sm-12 col-md-6 col-lg-3"><!-- 5.column 3 -->
                         <div
                             class="card w-100 rounded-0 border-0 d-flex flex-column justify-content-center align-items-center">
-                            <img src="./assets/img/icon-3.png" class="w-40 h-auto pt-3" alt="Breakfast And Sweets">
+                            <img src="./assets/img/icon-3.png" class="facility-icon h-auto pt-3"
+                                alt="Breakfast And Sweets">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">
                                 <h5 class="card-title">Breakfast And Sweets</h5>
                                 <p class="card-text text-center">Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing
@@ -130,7 +126,8 @@
                     <div class="col-12 col-sm-12 col-md-6 col-lg-3"><!-- 5.column 4-->
                         <div
                             class="card w-100 rounded-0 border-0 d-flex flex-column justify-content-center align-items-center">
-                            <img src="./assets/img/icon-3.png" class="w-40 h-auto pt-3" alt="Ready To Go Coffee">
+                            <img src="./assets/img/icon-3.png" class="facility-icon h-auto pt-3"
+                                alt="Ready To Go Coffee">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">
                                 <h5 class="card-title">Ready To Go Coffee</h5>
                                 <p class="card-text text-center">Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing
@@ -143,19 +140,19 @@
         </div>
         <section class="Menu"><!-- 2.component -->
             <div class="container"><!-- 3.componentContainer -->
-                <div class="row align-items-center justify-content-center" style="min-width: 500px;"><!-- 4.row 1 -->
+                <div class="row align-items-center justify-content-center"><!-- 4.row 1 -->
                     <div
                         class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex flex-column justify-content-center align-items-center py-3">
                         <!-- 5.column -->
-                        <img src="./assets/img/heading-img.jpg" class="w-25 h-auto" alt="Popular Menu">
+                        <img src="./assets/img/heading-img.jpg" class="section-heading-image" alt="Popular Menu">
                         <h2 class="fs-1 fw-bold">Popular Menu</h2>
                     </div>
                 </div>
-                <div class="row align-items-center justify-content-center" style="min-width: 500px;"><!-- 4.row 1 -->
+                <div class="row align-items-center justify-content-center"><!-- 4.row 1 -->
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column 1-->
                         <div
                             class="card w-100 rounded-0 border-0 d-flex flex-column justify-content-center align-items-center">
-                            <img src="./assets/img/menu-1.png" class="w-30 h-auto pt-3" alt="love you coffee">
+                            <img src="./assets/img/menu-1.png" class="menu-image h-auto pt-3" alt="love you coffee">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">
                                 <p class="card-text text-center">Love You Coffee</p>
                             </div>
@@ -164,7 +161,7 @@
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column 2 -->
                         <div
                             class="card w-100 rounded-0 border-0 d-flex flex-column justify-content-center align-items-center">
-                            <img src="./assets/img/menu-2.png" class="w-30 h-auto pt-3" alt="Cappuccino">
+                            <img src="./assets/img/menu-2.png" class="menu-image h-auto pt-3" alt="Cappuccino">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">
                                 <p class="card-text text-center">Cappuccino</p>
                             </div>
@@ -173,7 +170,7 @@
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column 3 -->
                         <div
                             class="card w-100 rounded-0 border-0 d-flex flex-column justify-content-center align-items-center">
-                            <img src="./assets/img/menu-3.png" class="w-30 h-auto pt-3" alt="Mocha Coffee">
+                            <img src="./assets/img/menu-3.png" class="menu-image h-auto pt-3" alt="Mocha Coffee">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">
                                 <p class="card-text text-center">Mocha Coffee</p>
                             </div>
@@ -182,7 +179,7 @@
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column 4-->
                         <div
                             class="card w-100 rounded-0 border-0 d-flex flex-column justify-content-center align-items-center">
-                            <img src="./assets/img/menu-4.png" class="w-30 h-auto pt-3" alt="Frappuccino">
+                            <img src="./assets/img/menu-4.png" class="menu-image h-auto pt-3" alt="Frappuccino">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">
                                 <p class="card-text text-center">Frappuccino</p>
                             </div>
@@ -191,7 +188,7 @@
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column 5 -->
                         <div
                             class="card w-100 rounded-0 border-0 d-flex flex-column justify-content-center align-items-center">
-                            <img src="./assets/img/menu-5.png" class="w-30 h-auto pt-3" alt="Black Coffee">
+                            <img src="./assets/img/menu-5.png" class="menu-image h-auto pt-3" alt="Black Coffee">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">
                                 <p class="card-text text-center">Black Coffee</p>
                             </div>
@@ -200,7 +197,7 @@
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4"><!-- 5.column 6 -->
                         <div
                             class="card w-100 rounded-0 border-0 d-flex flex-column justify-content-center align-items-center">
-                            <img src="./assets/img/menu-6.png" class="w-30 h-auto pt-3" alt="Love Heart Coffee">
+                            <img src="./assets/img/menu-6.png" class="menu-image h-auto pt-3" alt="Love Heart Coffee">
                             <div class="card-body d-flex flex-column justify-content-center align-items-center">
                                 <p class="card-text text-center">Love Heart Coffee</p>
                             </div>
@@ -211,14 +208,14 @@
         </section>
         <section class="gallery">
             <div class="container">
-                <div class="row align-items-center justify-content-center" style="min-width: 500px;">
+                <div class="row align-items-center justify-content-center">
                     <div
                         class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex flex-column justify-content-center align-items-center py-3">
-                        <img src="./assets/img/heading-img.jpg" class="w-25 h-auto" alt="Our Gallery">
+                        <img src="./assets/img/heading-img.jpg" class="section-heading-image" alt="Our Gallery">
                         <h2 class="fs-1 fw-bold">Our Gallery</h2>
                     </div>
                 </div>
-                <div class="row align-items-center justify-content-center" style="min-width: 500px;">
+                <div class="row align-items-center justify-content-center">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4">
                         <div
                             class="card w-100 rounded-0 border-0 d-flex flex-column justify-content-center align-items-center">
@@ -271,15 +268,15 @@
         </section>
         <section class="Team">
             <div class="container">
-                <div class="row align-items-center justify-content-center" style="min-width: 500px;">
+                <div class="row align-items-center justify-content-center">
                     <div
                         class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex flex-column justify-content-center align-items-center py-3">
                         <!-- 5.column -->
-                        <img src="./assets/img/heading-img.jpg" class="w-25 h-auto" alt="Popular Menu">
+                        <img src="./assets/img/heading-img.jpg" class="section-heading-image" alt="Popular Menu">
                         <h2 class="fs-1 fw-bold">Popular Menu</h2>
                     </div>
                 </div>
-                <div class="row align-items-center justify-content-center" style="min-width: 500px">
+                <div class="row align-items-center justify-content-center">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4">
                         <div
                             class="card w-100 rounded-0 border-0 d-flex flex-column justify-content-center align-items-center">
@@ -331,19 +328,19 @@
         </section>
         <section class="contact">
             <div class="container">
-                <div class="row align-items-center justify-content-center" style="min-width:500px ;">
+                <div class="row align-items-center justify-content-center">
                     <div
                         class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex flex-column justify-content-center align-items-center py-3">
                         <!-- 5.column -->
-                        <img src="./assets/img/heading-img.jpg" class="w-25 h-auto" alt="contact">
+                        <img src="./assets/img/heading-img.jpg" class="section-heading-image" alt="contact">
                         <h2 class="fs-1 fw-bold">Contact Us</h2>
                     </div>
                 </div>
-                <div class="row align-items-center justify-content-center" style="min-width: 500px;">
-                    <div class="col-12 col-md-12 col-lg-6">
-                        <img src="./assets/img/contact-img (1).jpg" class="mw-100 h-auto pt3" alt="contact img">
+                <div class="row align-items-center justify-content-center g-4">
+                    <div class="col-12 col-lg-6">
+                        <img src="./assets/img/contact-img (1).jpg" class="mw-100 h-auto pt-3" alt="contact img">
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-lg-6">
                         <div class="border border-2 border-dark p-4">
                             <h4 class="text-center fw-bold mb-3">Book A Table</h4>
                             <input type="text" class="form-control rounded-0 border-dark mb-3"
@@ -363,7 +360,7 @@
     </main>
     <footer class="bg-white py-4">
         <div class="container">
-            <div class="row text-center py-4 align-items-center justify-content-center" style="min-width: 500px;">
+            <div class="row text-center py-4 align-items-center justify-content-center">
 
                 <!-- 1. Our Email -->
                 <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
@@ -382,7 +379,7 @@
                         <i class="fa-solid fa-phone text-white fs-5"></i>
                     </div>
                     <h5 class="fw-bold" style="font-family: serif;">Our Number</h5>
-                    <div class="small text-muted">+91-123-456-7890<br>+91 90-78-563-412</div>
+                    <div class="small ">+91-123-456-7890<br>+91 90-78-563-412</div>
                 </div>
 
                 <!-- 3. Opening Hours -->
